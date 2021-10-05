@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "RacCommands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RacItems": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RacCommands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RacCommands.dll": {}
+        }
+      },
+      "RacItems/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/RacItems.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RacItems.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RacCommands/1.0.0": {
+      "type": "project",
+      "path": "../RacCommands/RacCommands.csproj",
+      "msbuildProject": "../RacCommands/RacCommands.csproj"
+    },
+    "RacItems/1.0.0": {
+      "type": "project",
+      "path": "../RacItems/RacItems.csproj",
+      "msbuildProject": "../RacItems/RacItems.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "RacCommands >= 1.0.0",
+      "RacItems >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\me\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\gihub\\1CRAC\\DBMonitor\\DBMonitor.csproj",
+      "projectName": "DBMonitor",
+      "projectPath": "F:\\gihub\\1CRAC\\DBMonitor\\DBMonitor.csproj",
+      "packagesPath": "C:\\Users\\me\\.nuget\\packages\\",
+      "outputPath": "F:\\gihub\\1CRAC\\DBMonitor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "F:\\gihub\\1CRAC\\RacCommands\\RacCommands.csproj": {
+              "projectPath": "F:\\gihub\\1CRAC\\RacCommands\\RacCommands.csproj"
+            },
+            "F:\\gihub\\1CRAC\\RacItems\\RacItems.csproj": {
+              "projectPath": "F:\\gihub\\1CRAC\\RacItems\\RacItems.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\me\Desktop\work\RacItems\bin\Debug\net5.0\RacItems.deps.json
+C:\Users\me\Desktop\work\RacItems\bin\Debug\net5.0\RacItems.dll
+C:\Users\me\Desktop\work\RacItems\bin\Debug\net5.0\ref\RacItems.dll
+C:\Users\me\Desktop\work\RacItems\bin\Debug\net5.0\RacItems.pdb
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.csproj.AssemblyReference.cache
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.AssemblyInfoInputs.cache
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.AssemblyInfo.cs
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.csproj.CoreCompileInputs.cache
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.dll
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\ref\RacItems.dll
+C:\Users\me\Desktop\work\RacItems\obj\Debug\net5.0\RacItems.pdb

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DBMonitor/1.0.0": {
+        "dependencies": {
+          "RacCommands": "1.0.0",
+          "RacItems": "1.0.0"
+        },
+        "runtime": {
+          "DBMonitor.dll": {}
+        }
+      },
+      "RacCommands/1.0.0": {
+        "dependencies": {
+          "RacItems": "1.0.0"
+        },
+        "runtime": {
+          "RacCommands.dll": {}
+        }
+      },
+      "RacItems/1.0.0": {
+        "runtime": {
+          "RacItems.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DBMonitor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RacCommands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RacItems/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
