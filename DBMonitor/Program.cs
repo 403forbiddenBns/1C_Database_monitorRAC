@@ -12,7 +12,6 @@ namespace DBMonitor
         //Path to rac.exe //todo:change path after tests.
         static string path = $"C:\\Program Files\\1cv8\\8.3.18.1289\\bin\\rac.exe";
         
-        //Ininialization status for servers, clustersa nd infobases (default = -1, but must be changed: 0 = Success initialization, 1 = Something went wrong).
         static public string clusterIniStatus = "Нет данных";
         static public string serverIniStatus = "Нет данных";
         static public string infobaseIniStatus = "Нет данных";
